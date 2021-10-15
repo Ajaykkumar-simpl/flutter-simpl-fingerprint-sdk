@@ -31,3 +31,15 @@ android {
         disable 'InvalidPackage'
     }
 }
+
+repositories {
+    maven { url "http://maven.getsimpl.com"}
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.simpl.android:fingerprintSDK:+"
+}
